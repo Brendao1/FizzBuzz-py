@@ -1,0 +1,14 @@
+>>> class FizzBuzz:
+  def play(num):
+      if num % 3 == 0:
+          print("Fizz")
+          # return "Fizz"
+      else:
+          print(num)
+
+
+>>> FizzBuzz.play(3)
+Fizz
+>>> FizzBuzz.play(2)
+2
+>>> 
