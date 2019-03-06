@@ -1,8 +1,13 @@
-def test_play():
-    assert play([3]) == "Fizz", "Should return Fizz"
+import unittest
+from fizzbuzz import FizzBuzz
 
+class TestSum(unittest.TestCase):
+
+    def test_play(self):
+        self.assertEqual(play([3]) == "Fizz", "Should return Fizz")
+
+    def test_play(self):
+        self.assertEqual(play([2]) == 2, "Should return 2")
 
 if __name__ == "__main__":
-    test_play()
-    # test_sum_tuple()
-    print("Everything passed")
+    unittest.main()
