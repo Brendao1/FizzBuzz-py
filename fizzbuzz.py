@@ -10,6 +10,12 @@ class FizzBuzz:
         else:
             print(num)
 
+i = 0
+while i < 101:
+    f = FizzBuzz()
+    f.play(i)
+    i+=1
 
-f = FizzBuzz()
-f.play(5)
+
+# f = FizzBuzz()
+# f.play(5)
