@@ -13,7 +13,6 @@ class FizzBuzz:
         else:
             print(num)
             return num
-            
 i = 0
 while i < 101:
     f = FizzBuzz()
