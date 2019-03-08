@@ -19,6 +19,5 @@ while i < 101:
     f.play(i)
     i+=1
 
-
 # f = FizzBuzz()
 # f.play(5)

@@ -19,6 +19,5 @@ class Testplay(unittest.TestCase):
         f = FizzBuzz()
         self.assertEqual(f.play(2), 2)
 
-
 if __name__ == '__main__':
 	unittest.main()
